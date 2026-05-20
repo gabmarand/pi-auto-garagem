@@ -153,9 +153,9 @@ header > button{
 
 /*sobre nós*/
 
-.sobre-nos{
+.about-us{
     width: 100vw;
-    height: 10hw;
+    height: 100hw;
     padding: 320px 357px 80px 613px;
 
     display: flex;
@@ -164,12 +164,395 @@ header > button{
     gap: 60px;
 }
 
-.sobre-nos > h1{
+.about-us > h1{
     font-size: 35px;
     font-family: "Sedgwick Ave Display", sans-serif ;
 }
 
-.sobre-nos > p{
+.about-us > p{
     font-size: 16px;
     font-family: "Poppins", sans-serif;
+}
+
+/*principais serviços*/
+
+.main-services{
+    width: 100vw;
+    height: 100hw;
+    padding: 125px 163px 184px 163px;
+
+    display: flex;
+    gap: 105px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-services > h1{
+    font-size: 52.25px;
+    font-family: "Sedgwick Ave Display", sans-serif;
+}
+
+.services{
+    display: flex;
+    gap: 30px;
+}
+
+.lavagem{    
+    padding-bottom: 24px;
+    
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.lavagem > img{
+    width: 270px;
+    height: 155px;
+    margin-right: none;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-lavagem{
+    padding-top: 10px;
+    padding-left: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tittle-lavagem{
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.comercial{
+    display: flex;
+    gap: 5px;
+}
+
+.comercial > p{
+    font-size: 12px;
+    color: #959595;
+}
+
+.premium{
+    display: flex;
+    gap: 5px;
+}
+
+.premium > p{
+    font-size: 12px;
+    color: #959595;
+}
+
+.contract-lavagem{
+    padding-top: 24px;
+    border-top: 1px solid #E0E0E0;
+    margin-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.contract-lavagem > button{
+    width: 208px;
+    height: 40px;
+
+    background-color: #FF5E00;
+    color: white;
+    font-size: 14px;
+
+    border-radius: 8px;
+}
+
+.value-lavagem{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.value-lavagem > p{
+    font-size: 14px;
+    color: #595959;
+}
+
+.value-lavagem > h1{
+    font-size: 16px;
+}
+
+.polimento{    
+    padding-bottom: 24px;
+    
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.polimento > img{
+    width: 285px;
+    height: 155px;
+    margin-right: none;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-polimento{
+    padding-top: 10px;
+    padding-left: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tittle-polimento{
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.polimento-farois{
+    display: flex;
+    gap: 5px;
+}
+
+.polimento-farois > p{
+    font-size: 12px;
+    color: #959595;
+}
+
+.polimento-tecnico{
+    display: flex;
+    gap: 5px;
+}
+
+.polimento-tecnico > p{
+    font-size: 12px;
+    color: #959595;
+}
+
+.contract-polimento{
+    padding-top: 24px;
+    border-top: 1px solid #E0E0E0;
+    margin-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.contract-polimento > button{
+    width: 208px;
+    height: 40px;
+
+    background-color: #FF5E00;
+    color: white;
+    font-size: 14px;
+
+    border-radius: 8px;
+}
+
+.value-polimento{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.value-polimento > p{
+    font-size: 14px;
+    color: #595959;
+}
+
+.value-polimento > h1{
+    font-size: 16px;
+}
+
+.higienizacao{    
+    padding-bottom: 24px;
+    
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.higienizacao > img{
+    width: 285px;
+    height: 155px;
+    margin-right: none;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-higienizacao{
+    padding-top: 10px;
+    padding-left: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tittle-higienizacao{
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.interna{
+    display: flex;
+    gap: 5px;
+}
+
+.interna > p{
+    font-size: 12px;
+    color: #959595;
+}
+
+.profunda{
+    display: flex;
+    gap: 5px;
+}
+
+.profunda > p{
+    font-size: 12px;
+    color: #959595;
+}
+
+.contract-higienizacao{
+    padding-top: 24px;
+    border-top: 1px solid #E0E0E0;
+    margin-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.contract-higienizacao > button{
+    width: 208px;
+    height: 40px;
+
+    background-color: #FF5E00;
+    color: white;
+    font-size: 14px;
+
+    border-radius: 8px;
+}
+
+.value-higienizacao{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.value-higienizacao > p{
+    font-size: 14px;
+    color: #595959;
+}
+
+.value-higienizacao > h1{
+    font-size: 16px;
+}
+
+.limpeza{    
+    padding-bottom: 24px;
+    
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.limpeza > img{
+    width: 285px;
+    height: 155px;
+    margin-right: none;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-limpeza{
+    padding-top: 10px;
+    padding-left: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tittle-limpeza{
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nivel-um{
+    display: flex;
+    gap: 5px;
+}
+
+.nivel-um > p{
+    font-size: 12px;
+    color: #959595;
+}
+
+.nivel-dois{
+    display: flex;
+    gap: 5px;
+}
+
+.nivel-dois > p{
+    font-size: 12px;
+    color: #959595;
+}
+
+.contract-limpeza{
+    padding-top: 24px;
+    border-top: 1px solid #E0E0E0;
+    margin-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.contract-limpeza > button{
+    width: 208px;
+    height: 40px;
+
+    background-color: #FF5E00;
+    color: white;
+    font-size: 14px;
+
+    border-radius: 8px;
+}
+
+.value-limpeza{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.value-limpeza > p{
+    font-size: 14px;
+    color: #595959;
+}
+
+.value-limpeza > h1{
+    font-size: 16px;
 }

@@ -1,4 +1,7 @@
 body{
+    width: 100vw;
+    height: 100vh;
+
     background-image: url(../assets/image/body/bg-site.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +10,6 @@ body{
 /*header*/
 
 header{
-    width: 100vw;
     height: 75px;
     padding-top: 10px;
     padding-left: 160px;
@@ -68,8 +70,6 @@ header > button{
 /*hero*/
 
 .hero{
-    width: 100vw;
-    height: 100hw;
     padding-top: 212px;
     padding-bottom: 48px;
 
@@ -88,7 +88,7 @@ header > button{
 }
 
 .content-hero > h1{
-    font-size: 48px;
+    font-size: 80px;
     font-family: "Sedgwick Ave Display", sans-serif;
 }
 
@@ -98,11 +98,11 @@ header > button{
 
 .content-hero > p{
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .contact-hero{
-    width: 1120px;
+    width: 1300px;
     height: 72px;
     padding-left: 32px;
     padding-right: 12px;
@@ -162,9 +162,8 @@ header > button{
 /*sobre nós*/
 
 .about-us{
-    width: 100vw;
-    height: 100hw;
-    padding: 320px 357px 80px 613px;
+
+    padding: 460px 357px 80px 613px;
 
     display: flex;
     flex-direction: column;
@@ -173,21 +172,20 @@ header > button{
 }
 
 .about-us > h1{
-    font-size: 35px;
+    font-size: 60px;
     font-family: "Sedgwick Ave Display", sans-serif ;
 }
 
 .about-us > p{
-    font-size: 16px;
+    font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
 }
 
 /*principais serviços*/
 
 .main-services{
-    width: 100vw;
-    height: 100hw;
-    padding: 125px 163px 184px 163px;
+    
+    padding: 190px 163px 184px 163px;
 
     display: flex;
     gap: 105px;
@@ -199,6 +197,14 @@ header > button{
     font-size: 52.25px;
     font-family: "Sedgwick Ave Display", sans-serif;
 }
+
+.main-services button::before{
+    display: block;
+    content: "";
+    background-image: url(../assets/image/main-services/vector-de-spray-de-graffiti-dinamico-design-audaz-e-artistico-para-arte-de-rua-e-temas-de-cultura-urbana_579306-15873.avif);
+    width: 50px;
+}
+
 
 .services{
     display: flex;
@@ -284,6 +290,7 @@ header > button{
 
     border-radius: 8px;
 }
+
 
 .value-lavagem{
     display: flex;
@@ -586,14 +593,13 @@ header > button{
 }
 
 .projects{
-    width: 100vw;
-    height: 100vh;
+    padding-top: 270px;
     padding-left: 722px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 44px;
+    gap: 82px;
 }
 
 .projects > h1{
@@ -602,17 +608,18 @@ header > button{
 }
 
 .content-projects{
-    margin-right: 25px;
+    margin-right: -24px;
     margin-top: -15px;
 
     display: flex;
-    gap: 100px;
+    gap: 150px;
     align-items: center;
 }
 
 .bg-video-projects{
-    width: 384px;
-    height: 640px;
+    margin-left: 114px;
+    width: 500px;
+    height: 835px;
 
     border-radius: 32px;
 
@@ -624,7 +631,7 @@ header > button{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 52px;
+    gap: 120px;
 
 }
 
@@ -647,9 +654,7 @@ header > button{
 }
 
 .sobre-nos{
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
+    padding-top: 150px;
 
     display: flex;
     flex-direction: column;
@@ -916,4 +921,5 @@ button{
 button:hover{
     background-color: #E95600;
     transform: scale(1.05);
+    transition-duration: 0.3s;
 }

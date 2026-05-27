@@ -19,10 +19,10 @@
                 <h1> AUTO GARAGEM </h1>
             </div>
             <nav>
-                <a href=""> Sobre Nós </a>
-                <a href=""> Serviços </a>
-                <a href=""> Projetos </a>
-                <a href=""> Avaliações </a>
+                <a href="#about-us"> Sobre Nós </a>
+                <a href="#main-services"> Serviços </a>
+                <a href="#projects"> Projetos </a>
+                <a href="#sobre-nos"> Avaliações </a>
             </nav>
             <button> Inscreva-se </button>
         </header>
@@ -55,12 +55,12 @@
         </div>
     </main>
     <!-- sobre nós -->
-    <section class="about-us">
+    <section class="about-us" id="about-us">
         <h1> Sobre nós </h1>
         <p>Tudo começou com o sonho de empreender e <br> transformar esforço em conquistas reais. A Auto Garagem <br> nasceu dessa visão, iniciada ao lado dos meus irmãos, <br> Icaro e Gabriel, com recursos simples, mas com um <br> objetivo claro: entregar sempre o melhor em serviço, <br> resultado e atendimento. O que começou como um <br> hobby rapidamente se tornou nossa principal fonte de <br> renda e, mais do que isso, uma forma de realizar sonhos <br> — nossos e dos nossos clientes. Hoje, nosso maior orgulho <br> é ver o impacto do nosso trabalho na vida das pessoas e <br> entender que esse começo mudou muito mais do que <br> apenas a nossa história.</p>
     </section>
     <!-- principais serviços -->
-    <section class="main-services">
+    <section class="main-services" id="main-services">
         <h1> Nossos principais serviços: </h1>
         <div class="services">
             <div class="lavagem">
@@ -157,19 +157,23 @@
             </div>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <h1> Alguns de nossos projetos </h1>
         <div class="content-projects">
-            <div class="bg-video-projects"></div>
+            <div class="bg-video-projects">
+                <video id="project-video" autoplay muted loop playsinline>
+                    <source id="project-video-src" src="" type="video/mp4">
+                </video>
+            </div>
             <div class="btns-projects">
-                <button> Lavagem </button>
-                <button> Polimento </button>
-                <button id="btn-higienizacao-projects"> Higienização </button>
-                <button> Limpeza </button>
+                <button data-video="lavagem"> Lavagem </button>
+                <button data-video="polimento"> Polimento </button>
+                <button id="btn-higienizacao-projects" data-video="higienizacao"> Higienização </button>
+                <button data-video="limpeza"> Limpeza </button>
             </div>
         </div>
     </section>
-    <section class="sobre-nos">
+    <section class="sobre-nos" id="sobre-nos">
         <h1> O que dizem sobre nós?</h1>
         <div class="avaliacoes">
             <div class="bloco-um">
@@ -238,5 +242,7 @@
 
         <p>Copyright 2026 ・ Autogaragem, Todos os direitos reservados</p>
     </footer>
+
+<script src="scripts.js"></script>
 </body>
 </html>

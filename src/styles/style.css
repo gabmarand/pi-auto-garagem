@@ -609,7 +609,7 @@ header > button{
 
 .content-projects{
     margin-right: -24px;
-    margin-top: -15px;
+    margin-top: -30px;
 
     display: flex;
     gap: 150px;
@@ -622,9 +622,21 @@ header > button{
     height: 835px;
 
     border-radius: 32px;
+    overflow: hidden;
 
     background-image: url(../assets/image/projects/video-bg.png);
     background-size: cover;
+}
+
+.bg-video-projects video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.bg-video-projects video.ativo{
+    display: block;
 }
 
 .btns-projects{
